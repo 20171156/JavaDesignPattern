@@ -85,6 +85,9 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -115,21 +118,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CartForSongs.h" />
-    <ClInclude Include="DiscountedMode.h" />
-    <ClInclude Include="NonDiscounted.h" />
-    <ClInclude Include="OnSale.h" />
-    <ClInclude Include="Song.h" />
-    <ClInclude Include="TodayEvent.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="CartForSongs.cpp" />
-    <ClCompile Include="DiscountedMode.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="NonDiscounted.cpp" />
-    <ClCompile Include="OnSale.cpp" />
-    <ClCompile Include="Song.cpp" />
-    <ClCompile Include="TodayEvent.cpp" />
+    <ClCompile Include="박성은.R1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
